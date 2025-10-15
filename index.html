@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pocket Money Tracker</title>
+  <link rel="stylesheet" href="style.css" id="light-style">
+  <link rel="stylesheet" href="style1.css" id="dark-style" disabled>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>💸 Pocket Money Tracker</h1>
+    <button id="toggleThemeBtn"> Toggle Theme</button>
+  </header>
+
+  <main class="container">
+    <!-- Dashboard -->
+    <section class="dashboard">
+      <div class="card total-money">
+        <h3>Total Pocket Money</h3>
+        <input type="number" id="totalMoneyInput" placeholder="Enter total money" />
+        <button id="setMoneyBtn">Set</button>
+        <p><strong>Total Money:</strong> ₹<span id="totalMoney">0</span></p>
+        <p><strong>Spent:</strong> ₹<span id="totalSpent">0</span></p>
+        <p><strong>Remaining:</strong> ₹<span id="remainingMoney">0</span></p>
+      </div>
+    </section>
+
+    <!-- Expense Tracker -->
+    <section class="expense-section card">
+      <h2>Expense Tracker</h2>
+      <div class="form">
+        <input type="text" id="expenseName" placeholder="Expense name" />
+        <input type="number" id="expenseAmount" placeholder="Amount" />
+        <input type="date" id="expenseDate" />
+        <button id="addExpenseBtn">Add Expense</button>
+      </div>
+      <table id="expenseTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Amount (₹)</th>
+            <th>Date</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="expenseList"></tbody>
+      </table>
+    </section>
+
+    <!-- Savings Goal Tracker -->
+    <section class="goal-section card">
+      <h2>Savings Goals</h2>
+      <div class="form">
+        <input type="text" id="goalName" placeholder="Goal name (e.g. New Phone)" />
+        <input type="number" id="goalTarget" placeholder="Target amount" />
+        <input type="number" id="goalSaved" placeholder="Amount saved" />
+        <button id="addGoalBtn">Add Goal</button>
+      </div>
+      <div id="goalList" class="goal-list"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Made using HTML, CSS & JavaScript by Shahnawaz</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
