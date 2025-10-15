@@ -34,11 +34,11 @@ It helps users manage their pocket money efficiently by tracking total funds, ex
 
 ## 📂 Folder Structure
 
-PocketMoneyTracker/
-├── index.html
-├── style.css
-├── style1.css
-└── script.js
+PocketMoneyTracker/<br/>
+├── index.html<br/>
+├── style.css<br/>
+├── style1.css<br/>
+└── script.js<br/>
 
 ---
 
