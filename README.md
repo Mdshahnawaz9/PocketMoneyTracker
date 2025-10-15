@@ -50,7 +50,7 @@ This Project helped me strengthen my front-end development skills by applying Ja
 
 ## 🌐 Live Demo
 
-🔗 **Deployed on Netlify: https://pocketmoneytrackerr.netlify.app/ 
+🔗 **Deployed on Netlify: https://pocketmoneytrackerr.netlify.app/ <br/>
 📦 **GitHub Repository: https://github.com/Mdshahnawaz9/PocketMoneyTracker
 
 ---
