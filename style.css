@@ -206,4 +206,13 @@ footer {
 
 #toggleThemeBtn:hover {
   background: #3a55a5;
+
+}
+
+
+/*For mobile Devices  */
+@media (max-width: 600px){
+  .form input{
+      flex: 1 1 20px;
+  }
 }
